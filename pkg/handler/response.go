@@ -5,11 +5,11 @@ import (
 	"log"
 )
 
-type Error struct {
+type errorResponse struct {
 	Message string `json:"message"`
 }
 
 func newErrorResponse(c *gin.Context, statusCode int, message string) {
 	log.Printf(message)
-	c.AbortWithStatusJSON(statusCode, Error{message})
+	c.AbortWithStatusJSON(statusCode, errorResponse{message})
 }
