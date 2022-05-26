@@ -1,6 +1,6 @@
 # Todo App
 **Note**
-This project was created on the basis of [video tutorials](https://www.youtube.com/watch?v=1LFbmWk7NLQ&list=PLbTTxxr-hMmyFAvyn7DeOgNRN8BQdjFm8) by @zhashkevych
+This project was created on the basis of [video tutorials](https://www.youtube.com/watch?v=1LFbmWk7NLQ&list=PLbTTxxr-hMmyFAvyn7DeOgNRN8BQdjFm8) by [@zhashkevych](https://github.com/zhashkevych)
 
 ## Migrate
 ```
