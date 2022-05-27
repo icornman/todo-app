@@ -3,8 +3,14 @@
 This project was created on the basis of video tutorials by [@zhashkevych](https://github.com/zhashkevych)
 
 ## Migrate
-```
+```sh
 migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5432/postgres?sslmode=disable' up
+```
+
+## Setup
+Setup PostgreSQL environment with Docker
+```sh
+docker run --name=todo-db -e POSTGRES_PASSWORD='qwerty' -p 5432:5432 -d --rm postgres:alpine
 ```
 
 ## Testing
