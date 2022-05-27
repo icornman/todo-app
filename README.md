@@ -21,5 +21,7 @@ Once you've pulled out the repo:
 3. Prepare the configuration files:
     - in `configs/config.yml` you can change your server port or database configurations.
 
+🎉 You're now good to go :).
+
 ## Testing
 You can quickly test this REST API with ready-made Postman collections. [Run in Postman](https://app.getpostman.com/run-collection/ac6d5a80226c1540debb?action=collection%2Fimport)
