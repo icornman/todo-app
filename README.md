@@ -1,6 +1,6 @@
 # Todo App
-**Note**
-This project was created on the basis of video tutorials by [@zhashkevych](https://github.com/zhashkevych)
+> **Note**
+> This project was created on the basis of video tutorials by [@zhashkevych](https://github.com/zhashkevych)
 
 ## Installation
 First, make sure to add the Postgres password to your `.env` file in the project root directory.
