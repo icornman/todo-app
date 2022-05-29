@@ -15,7 +15,6 @@ import (
 )
 
 func main() {
-
 	if err := initConfig(); err != nil {
 		log.Fatalf("error initializing configs: %s", err.Error())
 	}
@@ -41,7 +40,7 @@ func main() {
 	handlers := handler.NewHandler(services)
 
 	srv := new(todo.Server)
-	err = srv.Run(viper.GetString("port"), handlers.InitRoutes())
+	err = srv.Run(viper.GetString("server.port"), handlers.InitRoutes())
 	if err != nil {
 		log.Fatalf("error occured while running http server: %s", err.Error())
 	}
