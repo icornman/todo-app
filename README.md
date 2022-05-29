@@ -10,10 +10,7 @@ DB_PASSWORD="qwerty"
 
 ## Setup
 Once you've pulled out the repo:
-1. Run PostgreSQL environment with Docker compose:
-   ```sh
-   docker-compose up -d
-   ```
+1. Run PostgreSQL environment with Docker compose: `docker-compose up -d`
 2. Run the migrations:
    ```sh
    migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5432/postgres?sslmode=disable' up
