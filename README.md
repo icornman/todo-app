@@ -10,16 +10,16 @@ DB_PASSWORD="qwerty"
 
 ## Setup
 Once you've pulled out the repo:
-1. Setup PostgreSQL environment with Docker:
-    ```sh
-    docker run --name=todo-db -e POSTGRES_PASSWORD='qwerty' -p 5432:5432 -d --rm postgres:alpine
-    ```
+1. Run PostgreSQL environment with Docker compose:
+   ```sh
+   docker-compose up -d
+   ```
 2. Run the migrations:
-    ```sh
-    migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5432/postgres?sslmode=disable' up
-    ```
+   ```sh
+   migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5432/postgres?sslmode=disable' up
+   ```
 3. Prepare the configuration files:
-    - in `configs/config.yml` you can change your server port or database configurations.
+   - in `configs/config.yml` you can change your server port or database configurations.
 
 🎉 You're now good to go :).
 
